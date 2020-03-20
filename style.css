@@ -1,0 +1,63 @@
+body { 
+	font-family: 'Roboto', sans-serif; <!--Questo font viene annullato da Arail Helvetica-->
+}
+
+h1 {
+    text-align: center;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-image {
+    height: 50%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+ 
+
+  
+.img1 { background-image: url("1.jpg"); }
+.img2 { background-image: url("1.jpg"); }
+.img3 { background-image: url("1.jpg"); }
+.img4 { background-image: url("1.jpg"); }
+.img5 { background-image: url("1.jpg"); }
+.img6 { background-image: url("1.jpg"); }
+
+
+.bg-text {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    }
